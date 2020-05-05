@@ -1,0 +1,198 @@
+
+
+/******************TAGS**************/
+    html{
+      scroll-behavior: smooth;
+    }
+
+    body{
+    background-color: #222831;
+    margin: 20px 45px;
+
+    }
+
+    h1{
+      font-family: 'Tangerine', cursive;
+      font-size: 6rem;
+      font-weight: bold;
+      color: #fff;
+      padding-top: 0;
+      width: 60%;
+      margin: 0 auto;
+      background: -webkit-linear-gradient(top, white 20%, #408c99 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+    }
+
+    @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px;
+  }
+  to {
+    text-shadow: 0 0 10px #7f4782;
+  }
+}
+
+
+
+
+    h2{
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      margin: 20px 0;
+    }
+
+    h3{
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h4{
+      font-family: 'Montserrat', sans-serif;
+      padding: 30px 0 30px;
+      color: white;
+      font-size: 0.8rem
+    }
+
+    hr{
+      border-width: 10px;
+      border-color: #7f4782;
+      border-style: dotted none none;
+      width: 50%;
+
+    }
+
+    p{
+      font-family: 'Montserrat', sans-serif;
+    	width: 80%;
+      color: white;
+      text-align: justify;
+      margin: 20px auto;
+      padding: 0 3% 20%;
+      line-height: 2;
+
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+
+
+
+/******************CLASSES**************/
+.color-text{
+  color: black;
+  font-weight:900;
+}
+.centering-text{
+	text-align: center;
+}
+
+.centering-item{
+	margin: auto;
+	display: block;
+}
+
+.margin-tb{
+padding: 4% 0;
+}
+
+
+.widthimg{
+  width: 100px;
+  height: 100px;
+}
+
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7b0d85), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #7b0d85 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #7b0d85 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #7b0d85 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #7b0d85 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #7b0d85 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d85', endColorstr='#408c99',GradientType=0);
+	background-color:#7b0d85;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #7b0d85));
+	background:-moz-linear-gradient(top, #408c99 5%, #7b0d85 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #7b0d85 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #7b0d85 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #7b0d85 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #7b0d85 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#7b0d85',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.navbar{
+  background-color: #553c8b;
+  color: white;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+
+
+
+
+
+/******************ID**************/
+
+
+#title{
+	background-color: #553c8b;
+  margin-top: 65px;
+  opacity: 0.7;
+  padding-top: 65px;
+}
+#about{
+  background-color: #222831;
+  opacity: 0.6;
+  padding-top: 20px;
+}
+#Contact{
+  background-color: #222831;
+  padding: 100px 0 60px;
+
+}
+
+#description{
+  background-color: #553c8b;
+  opacity: 0.7;
+  border-radius: 50px;
+  margin: 100px 0;
+
+}
+
+#foot{
+	background-color: #553c8b;
+  opacity: 0.7;
+}
+
+#navbarTogglerDemo02{
+
+}
